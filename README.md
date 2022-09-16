@@ -50,8 +50,19 @@ As técnicas e tecnologias utilizadas no site foram:
 - [ ] Criação de novo anúncio.
 
 ## Design da aplicação WEB
-COLOCAR IMAGENS
+![Pag1](https://user-images.githubusercontent.com/75649546/190654538-c3fbb59f-696e-4a58-9a77-e9a117e8d444.png)
 
+![Pag2](https://user-images.githubusercontent.com/75649546/190654603-59fc257a-04d7-4ff0-837b-8e12adc06dec.png)
+
+## Design da aplicação Mobile
+
+![Splash_mobile](https://user-images.githubusercontent.com/75649546/190654688-4a52a596-a27d-4dd9-a4da-e85781b84b9b.png)
+
+![Home_mobile](https://user-images.githubusercontent.com/75649546/190654735-7f6ee78d-b3db-405b-b162-1d12f27f2c8a.png)
+
+![Ads_mobile](https://user-images.githubusercontent.com/75649546/190654782-28fda26f-cd59-414e-878a-bb9bdcfdb0a5.png)
+
+![Contato_mobile](https://user-images.githubusercontent.com/75649546/190654770-e5e60036-611f-4301-92ac-924d5fccdddb.png)
 
 ## 🕹️ Como Utilizar
 Para rodar estas aplicações será necessário, primeiramente escolher a que deseja, entre elas:
