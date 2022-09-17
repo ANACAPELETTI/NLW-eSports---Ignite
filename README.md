@@ -40,15 +40,21 @@ As técnicas e tecnologias utilizadas no site foram:
 - `Hoppscotch`;
 - `Prisma`;
 - `Sqlite`;
+- `Radix`;
 - `Ts-node-dev`.
 
 ## ✏️ Funcionalidades
+- [X] Conexão do back-end (server) e do front-end (web) para mostrar os jogos;
+- [ ] Conexão de criação de anúncio com a API (back-end);
 - [X] Listagem de games com contagem de anúncios;
+- [ ] Interface de criação de novo anúncio;
+  - [ ] Deixar funcional a parte de "quando costuma jogar?";
+  - [ ] Customizar a checkbox;
+  - [ ] Cadastrar o anúncio na API.
 - [X] Buscar discord pelo ID do anúncio;
 - [X] Listagem de anúncios por game;
 - [X] Criação de novo anúncio;
-- [ ] Interface de criação de novo anúncio;
-- [X] Conexão do back-end (server) e do front-end (web).
+
 
 ## Design da aplicação WEB
 <p align="center">
@@ -70,15 +76,20 @@ Para rodar estas aplicações será necessário, primeiramente escolher a que de
 - MOBILE.
 
 
-A aplicação "server" se integra com a "web", realizando o Back-end. Caso queira rodar as aplicações basta utilizar os seguintes comandos:
+A aplicação "server" se integra com a "web" e a "mobile", realizando o Back-end. Caso queira rodar as aplicações basta utilizar os seguintes comandos:
 
 
-Rodar web, primeiro iniciar o servidor e depois o próprio "web", ambos com o comando:
+Rodando a aplicação web, primeiro iniciar o servidor e depois o próprio "web", ambos com o comando:
 ```bash
 npm run dev
 ```
 
-Rodar mobile:
+Rodando a aplicação mobile, primeiro iniciar o servidor e depois o próprio "mobile":
+#### Server
+```bash
+npm run dev
+```
+#### Mobile
 ```bash
 expo start --tunnel
 ou
