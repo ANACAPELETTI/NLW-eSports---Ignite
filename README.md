@@ -45,12 +45,12 @@ As técnicas e tecnologias utilizadas no site foram:
 
 ## ✏️ Funcionalidades
 - [X] Conexão do back-end (server) e do front-end (web) para mostrar os jogos;
-- [ ] Conexão de criação de anúncio com a API (back-end);
+- [X] Conexão de criação de anúncio com a API (back-end);
 - [X] Listagem de games com contagem de anúncios;
-- [ ] Interface de criação de novo anúncio;
-  - [ ] Deixar funcional a parte de "quando costuma jogar?";
-  - [ ] Customizar a checkbox;
-  - [ ] Cadastrar o anúncio na API.
+- [X] Interface de criação de novo anúncio;
+  - [X] Deixar funcional a parte de "quando costuma jogar?";
+  - [X] Customizar a checkbox;
+  - [X] Cadastrar o anúncio na API.
 - [X] Buscar discord pelo ID do anúncio;
 - [X] Listagem de anúncios por game;
 - [X] Criação de novo anúncio;
@@ -94,6 +94,17 @@ npm run dev
 expo start --tunnel
 ou
 expo start 
+```
+
+Obs.: não esqueça de trocar pelo IP da sua máquina, para verificar o IP utilize o seguinte comando no terminal e achei o IPv4:
+#### windows
+```bash
+ipconfig
+```
+
+#### Linux
+```bash
+ipconfig
 ```
 
 ## Informações Extras:

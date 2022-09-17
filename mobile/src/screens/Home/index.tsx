@@ -4,7 +4,6 @@ import logoImg from '../../assets/logo-nlw-esports.png';
 import { GameCard, GameCardProps } from '../../components/GameCard';
 import { Heading } from '../../components/Heading';
 import { styles } from './styles';
-import { GAMES } from '../../utils/games';
 
 export function Home() {
   const [games, setGames] = useState<GameCardProps[]>([]);
