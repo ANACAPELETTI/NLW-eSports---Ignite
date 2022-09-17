@@ -46,7 +46,9 @@ As técnicas e tecnologias utilizadas no site foram:
 - [X] Listagem de games com contagem de anúncios;
 - [X] Buscar discord pelo ID do anúncio;
 - [X] Listagem de anúncios por game;
-- [X] Criação de novo anúncio.
+- [X] Criação de novo anúncio;
+- [ ] Interface de criação de novo anúncio;
+- [X] Conexão do back-end (server) e do front-end (web).
 
 ## Design da aplicação WEB
 <p align="center">
@@ -82,7 +84,6 @@ expo start --tunnel
 ou
 expo start 
 ```
-## API RESTful
 
 ## Informações Extras:
 
@@ -98,7 +99,9 @@ Obs.: o nome das rotas são sempre no plural.
 ### HTTP Codes
 
 Tipo de resposta que o back-end está dando.
+
 Status 201 - Algo foi criado
+
 Status 200 - Resposta genérica de sucesso (ok)
 
 Principais: 
@@ -119,4 +122,3 @@ Principais:
       <a href="https://github.com/ANACAPELETTI" title="Ana Capeletti"></a>
     </td>
 </table>
-
